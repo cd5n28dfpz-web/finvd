@@ -1,0 +1,23 @@
+{
+  "domaine": "finvd.ch",
+  "entites": [
+    {
+      "id": "vaud",
+      "nom": "Canton de Vaud",
+      "titre": "Budget du canton de Vaud",
+      "description": "Où va l'argent de l'État de Vaud : budgets et comptes par service, bénéficiaires et institutions, évolutions et écarts entre budget et comptes.",
+      "depot": "andant89/budget-vaud",
+      "branche": "main",
+      "page": "site/index.html"
+    },
+    {
+      "id": "epalinges",
+      "nom": "Épalinges",
+      "titre": "Budget de la Commune d'Épalinges",
+      "description": "Budgets et comptes de la commune ligne par ligne (2018 à 2026), dette, emprunts et investissements par projet.",
+      "depot": "cd5n28dfpz-web/budget-Epalinges",
+      "branche": "main",
+      "page": "site/index.html"
+    }
+  ]
+}
