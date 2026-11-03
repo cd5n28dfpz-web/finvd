@@ -6,7 +6,7 @@
       "nom": "Canton de Vaud",
       "titre": "Budget du canton de Vaud",
       "description": "Où va l'argent de l'État de Vaud : budgets et comptes par service, bénéficiaires et institutions, évolutions et écarts entre budget et comptes.",
-      "depot": "andant89/budget-vaud",
+      "depot": "cd5n28dfpz-web/budget-vaud",
       "branche": "main",
       "page": "site/index.html"
     },
