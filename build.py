@@ -85,10 +85,8 @@ def transformer(page, e, entites):
 def accueil(cfg, versions):
     cartes = "".join(f'''<a class="card" href="{html.escape(e["id"])}/"><h2>{html.escape(e["nom"])}</h2>
 <p>{html.escape(e["description"])}</p><span class="go">Ouvrir le site</span></a>''' for e in cfg["entites"])
-    sources = "".join(f'<li><a href="https://github.com/{html.escape(e["depot"])}">{html.escape(e["nom"])}</a> '
-                      f'(version {html.escape(versions[e["id"]])})</li>' for e in cfg["entites"])
     modele = lire(os.path.join(RACINE, "templates", "accueil.html"))
-    return modele.replace("{{CARTES}}", cartes).replace("{{SOURCES}}", sources).replace("{{DOMAINE}}", cfg["domaine"])
+    return modele.replace("{{CARTES}}", cartes).replace("{{DOMAINE}}", cfg["domaine"])
 
 
 def main():
